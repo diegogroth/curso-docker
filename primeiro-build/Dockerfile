@@ -1,2 +1,2 @@
-FROM nginx:latest
+FROM nginx:1.21.6
 RUN echo '<h1>Hello World !</h1>' > /usr/share/nginx/html/index.html
